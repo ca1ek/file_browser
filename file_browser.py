@@ -6,12 +6,16 @@ import time
 
 
 def main(screen): #screen is a curses window
-    for i in range(0,10):
-        screen.addstr("kruruurururururkowce")
-        screen.refresh()
-        time.sleep(5)
-    #window = curses.newwin(10,10,2,3)
-    #window.addstr("jajaja")
+
+    window = curses.newwin(10, 10, 2, 3)
+
+    #for i in range(0,10):
+    #   screen.addstr("kruruurururururkowce")
+    #  screen.refresh()
+    # time.sleep(5)
+
+    window.addstr("jajaja")
+    time.sleep(5)
 
 
 if __name__ == '__main__':
