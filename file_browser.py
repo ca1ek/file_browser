@@ -5,8 +5,9 @@ import curses
 
 
 def main(screen): #screen is a curses window
-    screen.addstr("kruruurururururkowce")
-    screen.refresh()
+    while True:
+        screen.addstr("kruruurururururkowce")
+        screen.refresh()
     #window = curses.newwin(10,10,2,3)
     #window.addstr("jajaja")
 
